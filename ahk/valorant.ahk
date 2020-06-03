@@ -31,3 +31,19 @@ Send, .
 Send, 4 
 Send, 4 
 return
+
+; YES
+^!{::
+SetKeyDelay, 100
+Send, . 
+Send, 3 
+Send, 3 
+return
+
+; NO
+^!}::
+SetKeyDelay, 100
+Send, . 
+Send, 3 
+Send, 4 
+return
